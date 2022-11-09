@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>New Document</title>
+    <title>LyLy</title>
 
     <meta name="Generator" content="EditPlus" />
 
@@ -78,9 +78,14 @@
   </head>
 
   <body>
+    <audio id="autoplay" controls autoplay>
+      <source src="love.mp3" type="audio/mp3" />
+    </audio>
     <canvas id="pinkboard"></canvas>
 
     <script>
+      document.getElementById("autoplay").play();
+
       /*
 
  * Settings
@@ -494,8 +499,5 @@
       I'm in love with you Ly Ly
       <img src="cartoon.gif" alt="error" style="width: 150px; height: 150px" />
     </div>
-    <audio hidden controls autoplay>
-      <source src="love.mp3" type="audio/mp3" />
-    </audio>
   </body>
 </html>
